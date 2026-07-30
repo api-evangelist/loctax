@@ -1,8 +1,25 @@
 aid: loctax
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loctax.png
 name: Loctax
-description: 'Loctax is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Loctax is a collaborative tax compliance, risk, and governance platform built for global
+  in-house tax teams. Founded in 2020 and based in Gent, Belgium, its Global Tax Intelligence Platform
+  lets teams ask any tax question grounded in their own company data and IBFD''s authoritative tax content
+  spanning 220+ jurisdictions, then act on the answer with workflow, compliance-monitoring, risk, and
+  controversy-management tooling. Loctax is backed by Index Ventures, Cavalry Ventures, and Seedcamp,
+  and in 2026 was acquired by Tax Systems to build a combined EMEA tax-technology platform. Loctax is a
+  closed enterprise SaaS product with no public developer API, portal, or specification at the time of
+  this profile.'
 url: https://raw.githubusercontent.com/api-evangelist/loctax/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Tax
+- Tax Compliance
+- Governance
+- Risk Management
+- Legal Tech
+- SaaS
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.loc.tax
+  url: https://www.loctax.com
+- type: SignUp
+  url: https://www.loctax.com/trial
+- type: Blog
+  url: https://www.loctax.com/resources
+- type: TrustCenter
+  url: https://trust.loctax.com
+- type: Compliance
+  url: https://trust.loctax.com
+- type: DomainSecurity
+  url: security/loctax-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/loctax
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
