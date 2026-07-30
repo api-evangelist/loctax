@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+source: https://trust.loctax.com
+url: https://trust.loctax.com
+certifications:
+- SOC 2 Type II
+- ISO 27001
+- GDPR
+evidence:
+- source: https://trust.loctax.com
+  kind: trust-center
+  note: Live security & compliance posture dashboard for ISO 27001, SOC 2 Type II and GDPR (HTTP 200).
+- source: https://www.loctax.com/
+  kind: marketing
+  note: Homepage states enterprise-grade security with SOC 2, GDPR, and ISO 27001 compliance.
